@@ -10,11 +10,12 @@ Create Conda Enviorment
 ```
 conda create -p venv_ml_project python==3.7
 ```
+To activate the virtual env
 
 ```
 conda activate venv_ml_project/
 ```
-
+To install the requirements
 
 ```
 pip install -r requirements.txt
@@ -43,5 +44,13 @@ git log
 To create version/commit all the changes by git
 ```
 git commit -m 'message'
-
+```
+To send version/changes to the github
+```
+git push origin main
+```
+To check the remote url
+```
+git remote -v
+```
 
